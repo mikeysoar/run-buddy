@@ -266,4 +266,17 @@ section {
     color: #fce138;    
 }
 
+.page-title {
+    color: #fce138;
+}
+
+.page-title h2 {
+    display: inline-block;
+    border-bottom: 4px solid;
+    border: 0 80px 15px left 80px;
+    font-weight: normal;
+    font-size: 42px;
+    font-style: italic;
+}
+
 /* Reach out styles complete*/
