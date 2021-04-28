@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Michael Warner
+
+### &#169 2019 run Buddy, Inc
