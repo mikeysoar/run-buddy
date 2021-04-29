@@ -264,9 +264,14 @@ section {
     color: #fce138;
 }
 
-.contact-info iframe {
-    width: 400px;
-    height: 400px;
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
 }
 
 .contact-info div {
@@ -275,7 +280,6 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px o o 60px;
-    color: white;
 }
 
 .contact-info h3 {
@@ -283,16 +287,28 @@ section {
     font-size: 32px;
 }
 
-.contact-info p
+.contact-info p {
+    font-size: 16px;
+}
 .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
 } 
 
 .contact-info a {
     color: #fce138;    
+}
+
+.contact-form button{
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 footer {
