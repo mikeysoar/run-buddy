@@ -17,6 +17,8 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -24,6 +26,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -47,6 +50,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* header stules end*/
@@ -100,6 +104,7 @@ section {
     color: #fff;
     font-size: 18px;
     line-height: 1.2;
+    text-shadow: o o 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-cta h2 {
@@ -110,11 +115,13 @@ section {
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    background-color: rgba(252, 225, 56, 0.8);
     padding: 20px;    
     color: #024e76;
     width: 40%;
-    margin: 3.5%;   
+    margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;   
 }
 
 .hero h3 {
@@ -135,6 +142,7 @@ section {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 .hero-form label {
@@ -146,7 +154,8 @@ section {
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;    
+    font-size: 16px;
+    border-radius: 15px;    
 }
 
 /*hero styles end*/
@@ -323,6 +332,7 @@ section {
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 15px;
 }
 
 .contact-form button{
@@ -333,6 +343,7 @@ section {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 15px;
 }
 
 .contact-info a {
